@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>StatusMenuVisible</key>
-    <false/>
+    <true/>
     <key>UserHasDeclinedEnable</key>
     <true/>
 </dict>
