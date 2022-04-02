@@ -1,5 +1,7 @@
 # 介绍
 
+这个项目基于https://github.com/bestswifter/macbootstrap, 删除了一些个人不需要的配置
+
 这是一个针对新 Mac 开发的，快速配置开发环境的脚本，里面集成了一些常用的配置。所有的配置和功能都有文档说明， 它既是使用手册，也是教学指南。
 
 读者可以先阅读 [这些问题](./doc/features.md)，如果这些问题你并没有简单的方式去实现，那么不妨考虑下 macbootstrap
@@ -15,7 +17,7 @@
 只需要执行以下代码即可：
 
 ```shell
-curl https://raw.githubusercontent.com/bestswifter/macbootstrap/master/bootstrap.sh | sh
+curl https://raw.githubusercontent.com/zhufaris/macbootstrap/master/bootstrap.sh | sh
 ```
 
 这个命令会安装 `HomeBrew`，如果是全新的电脑还会安装 Xcode 命令行工具（包括 gcc 等），这是必须的，绝大多数命令行程序都依赖这个。如果安装失败，可以手动执行 `xcode-select --install` 命令。如果还是无法安装，需要去[苹果官网](https://developer.apple.com/download/more/)手动下载安装
